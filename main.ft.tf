@@ -14,5 +14,5 @@ resource  "azurerm_virtual_network" "vnet"{
  address_space = ["10.0.0.0/16"]
  location  = "westus2"
  azurerm_resource_group = "${azurerm_resource_group.testResourceGroup1.name}"
- 
 }
+ 
